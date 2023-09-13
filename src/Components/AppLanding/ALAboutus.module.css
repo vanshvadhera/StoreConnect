@@ -1,0 +1,48 @@
+.AUBackground {
+    background-color: aliceblue;
+    padding: clamp(10px, 5vw, 100px);
+}
+
+.AUWrapper {
+    font-size: larger;
+}
+
+.AUInner {
+    /* display: flex */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 5fr));
+}
+
+.AUAU {
+    padding: clamp(0px, 5vw, 70px);
+}
+
+.AUSubheading {
+    font-family: 'Lato', sans-serif;
+    font-size: clamp(40px, 10vw, 50px);
+    font-weight: 700;
+}
+
+.whyshop {
+    margin-top: clamp(10px, 13vw, 20rem);
+
+}
+
+.whywithus {
+    margin-top: clamp(10px, 7vw, 100px);
+}
+
+.whywithusinner {
+    /* max-width: 100%; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 50px
+}
+
+/* @media screen and (max-width: 600px) {
+    .AUInner {
+        display: flex;
+        flex-direction: column;
+    }
+    
+} */

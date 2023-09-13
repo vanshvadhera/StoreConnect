@@ -1,0 +1,27 @@
+.cname {
+    font-size: 38px !important;
+    color: black !important;
+    font-weight: 500 !important;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.link {
+    font-weight: 600 !important;
+    color: #797979 !important;
+    font-size: 20px !important;
+}
+.link:hover{
+    color: goldenrod !important;
+}
+
+.logo {
+    margin-left: 10px !important;
+}
+
+@media screen and (max-width: 600px) {
+    .cname {
+        font-size: 30px !important;
+
+    }
+
+}

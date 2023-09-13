@@ -1,0 +1,30 @@
+.ALbackground {
+    background-image: url("https://10web-site.ai/7/wp-content/uploads/sites/8/2023/09/recycled-shoe-store-hero-image-bg_z3nAOhp7.webp") !important;
+    background-repeat: no-repeat;
+    border: 1px black solid;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    padding: clamp(10px, 5vw, 50px);
+
+}
+.ALSHeading {
+    font-size: clamp(40px, 5vw, 70px) !important;
+    color: white !important;
+    font-weight: 700 !important;
+}
+.ALHWrapper {
+    width: 50%;
+    margin-left: 50px ;
+}
+.ALSText {
+    color: white !important;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 600px) {
+    .ALHWrapper {
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+}
